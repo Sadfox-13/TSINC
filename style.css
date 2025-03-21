@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.sub{
+    background-color: #4da674;
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+p{
+    font-size: 18pt;
+}
+h1{
+    font-size: 30pt;
+    color: #2e4156;
+}
+.pro{
+    position: relative;
+    top: 200px;
+    color: #eaf8e7;
+    font-weight: bold;
+    font-size: 18pt;
+}
+a{
+    font-size: 18pt;
+    text-decoration: none;
+    color: white;
+    transition: 0.1s;
+}
+a:hover{
+    color: grey;
+}
+footer{
+    background-color: #4da674;
+}
+.itens{
+    list-style: none;
+}
+.logo{
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#28303a ;
+    align-items: center;
+    
+    
+}
+.bar{
+    display: flex;
+    gap: 200px;
+    
+}
+/*background: linear-gradient(90deg ,#515b64 , #28303a  );*/
+.src{
+    list-style:decimal;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #eaf8e7;
+}
+.sobre{
+color: #c1e6ba;
+}
+.Jobs{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 10px;
+}
+.mainjob{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #023336;
+    height: 50vh;
+   
+}
+
+.proj{
+    width: 500px;
+    border-radius: 20px;
+}
+.menu{
+    display: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+#close{
+    background-color: rgb(51, 254, 0);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 18pt;
+    cursor: pointer;
+}
+#whats{
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#whats:hover{
+    color: rgb(0, 255, 0);
+}
+.direitos{
+    font-size: 12pt;
+}
+.final{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #c1e6ba;
+}
+.title{
+    color: #023336;
+    margin: 10px;
+    
+}
+.finalsub{
+}
+.hora{
+    font-size: 15pt;
+    background-color: rgba(0, 255, 0, 0.318);
+    padding: 5px;
+    border-radius: 10px;
+}
+@media screen and (max-width:750px) {
+    .bar{
+        display: none;
+    }
+   .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+   }
+    .sobre{
+        margin: 10px;
+        height: 100px;
+        max-width: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        font-size: 12pt;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        font-size: 10pt;
+        margin-left: 20px;
+    }
+    .pro{
+        position: relative;
+        top: 110px;
+        font-size: 10pt;
+    }
+    .mainjob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .Jobs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proj{
+        width: 250px;
+    }
+    .title{
+        font-size: 14pt;
+    }
+    .hora{
+        font-size: 12pt;
+    }
+    
+}
+
