@@ -4,6 +4,7 @@
     const Close = document.getElementById("close")
     const sub = document.getElementById("Sub")
     const Whats = document.getElementById("whats")
+    const Whatss = document.getElementById("whatss")
     
 
 
@@ -23,6 +24,11 @@
         })
 
         Whats.addEventListener("click", function(){
+            const phone ="993100592"
+            const message = "Ola tenho interesse"
+            window.open(`https://wa.me/${phone}?text=${message}`)
+        })
+        Whatss.addEventListener("click", function(){
             const phone ="993100592"
             const message = "Ola tenho interesse"
             window.open(`https://wa.me/${phone}?text=${message}`)

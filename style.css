@@ -139,6 +139,14 @@ color: #c1e6ba;
 #whats:hover{
     color: rgb(0, 255, 0);
 }
+#whatss{
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#whatss:hover{
+    color: rgb(0, 255, 0);
+}
 .direitos{
     font-size: 12pt;
 }
@@ -213,7 +221,7 @@ color: #c1e6ba;
         font-size: 14pt;
     }
     .hora{
-        font-size: 12pt;
+        font-size: 10pt;
     }
     
 }
