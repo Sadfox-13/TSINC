@@ -171,6 +171,38 @@ color: #c1e6ba;
     padding: 5px;
     border-radius: 10px;
 }
+.closebar1{
+    display: none;
+    gap: 10px;
+        
+}
+.icons{
+    border: none;
+    background:none;
+}
+.barclose{
+    position: relative;
+    text-align: center;
+    background-color: #28303a;
+    position: relative;
+    top: 85px;
+    right: 240px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.open{
+    display: flex;
+}
+.icon{
+    display: none;
+}
+i{
+    
+    font-size: 30px;
+}
 @media screen and (max-width:750px) {
     .bar{
         display: none;
@@ -223,6 +255,18 @@ color: #c1e6ba;
     .hora{
         font-size: 10pt;
     }
+    .icon{
+        display: flex;
+    }
+    .closebar1{
+        
+    }
+   
+   .menu{
+    display: flex;
+    width: 300px;
+    z-index: 10;
+   }
     
 }
 

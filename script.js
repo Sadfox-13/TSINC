@@ -1,6 +1,7 @@
 
     const menuBar =document.getElementById('menubar')
     const BTN = document.getElementById("btn")
+    const BTN2 = document.getElementById("btn2")
     const Close = document.getElementById("close")
     const sub = document.getElementById("Sub")
     const Whats = document.getElementById("whats")
@@ -9,6 +10,10 @@
 
 
         BTN.addEventListener("click" , function(){
+                menuBar.style.display ="flex"
+            }
+        )
+        BTN2.addEventListener("click" , function(){
                 menuBar.style.display ="flex"
             }
         )
@@ -44,6 +49,13 @@
             Ajuda.addEventListener("click", function(){
                 alert("Ainda em desenvolvimento")
             })
+
+            function Show(){
+                let menubat = document.querySelector('.closebar1')
+                if(menubat.classList.contains('open')){
+                    menubat.classList.remove('open')
+                }else{menubat.classList.add('open')}
+            }
 
           
     //if(menubar.classList.contains('menu')){
