@@ -341,15 +341,18 @@ i {
         display: flex;
     }
 
-    .closebar1 {}
+    
 
     .menu {
         display: none;
         width: 300px;
         z-index: 10;
     }
-    a{
+    .itens{
         border: none;
+    }
+    i{
+        color: white;
     }
 
 }
