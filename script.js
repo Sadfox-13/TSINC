@@ -30,7 +30,7 @@
 
         Whats.addEventListener("click", function(){
             const phone ="993100592"
-            const message = "Ola tenho interesse"
+            const message = "Ola tenho interesse nos seus serviços"
             window.open(`https://wa.me/${phone}?text=${message}`)
         })
         Whatss.addEventListener("click", function(){
