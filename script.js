@@ -10,13 +10,13 @@
     const Ajuda = document.getElementById("Ajuda")
     
 
-
+        //Ativar o menu suspenso
         function toggleMenu(){
             const navLink = document.getElementById("nav-links")
             navLink.classList.toggle('bar')
         }
         
-
+        //API para levar ao whatsApp
         Whats.addEventListener("click", function(){
             const phone ="993100592"
             const message = "Ola tenho interesse nos seus serviços"
@@ -29,7 +29,7 @@
         })
         
         
-        
+        //Função para alerta
         function clickAlert(){
             
             Sobre=alert("Ainda em desenvolvimento")
@@ -39,7 +39,7 @@
 
             
             
-
+        //função para abrir o menu
             function Show(){
                 const menuBar = document.getElementById("menubar")
                 

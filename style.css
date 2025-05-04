@@ -228,7 +228,7 @@ hr{
 
 .direitos {
     font-size: 12pt;
-    color: white;
+    color: rgba(255, 255, 255, 0.274);
 }
 
 .final {
@@ -358,11 +358,7 @@ i {
 
     
 
-    .menu {
-        display: none;
-        width: 300px;
-        z-index: 10;
-    }
+    
     .itens{
         border: none;
     }
