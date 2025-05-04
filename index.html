@@ -15,35 +15,30 @@
             <nav class="container">
                 <div>
                     <span>
-                        <h6>TTSINC</h6>
-
+                        <h6 class="tit">TTSINC</h6>
                     </span>
                 </div>
-                <div>
-                    <ul class="bar">
+                <div class="hamburguer" onclick="toggleMenu()"><i class="fi fi-br-menu-burger"></i></div>
+                <div class="list">
+                    <ul class="bar" id="nav-links">
                         <li class="itens"><a href="#" id="sobre">Sobre</a></li>
-                        <li class="itens"><a href="#" id="btn">Contato</a></li>
+                        <li class="itens"><a href="#" id="btn" onclick="Show()">Contato</a></li>
                         <li class="itens"><a href="#" id="ajuda">Ajuda</a></li>
                     </ul>
                 </div>
-
-                    <div class="icon" id="opeN">
-                    <button class="icons" onclick="Show()">
-                        <i class="fi fi-br-menu-burger"></i>
-                    </button>
-                    <div>
-                        <div class="closebar1">
-                            <ul class="barclose">
-                                <li class="itens"><a href="#" id="sobre">Sobre</a></li>
-                                <li class="itens"><a href="#" id="btn2">Contato</a></li>
-                                <li class="itens"><a href="#" id="ajuda">Ajuda</a></li>
-                            </ul>
-                        </div>
+                <div>
+                    <ul class="navitens">
+                        <li class="itens"><a href="#" id="Sobre" onclick="clickAlert()">Sobre</a></li>
+                        <li class="itens"><a href="#" id="btn2" onclick="Show()">Contato</a></li>
+                        <li class="itens"><a href="#" id="Ajuda" onclick="clickAlert()">Ajuda</a></li>
+                    </ul>
                 </div>
+
             </nav>
         </header>
         <main class="sub" id="Sub">
-            <div class="menu" id="menubar">
+
+            <div class="menuclose" id="menubar">
                 <h3>Segue os links para contato</h3>
                 <span>Email:denersilva805@gmail.com</span>
                 <span id="whats">Click aqui para ser levado ao Whatsaap</span>
@@ -59,7 +54,7 @@
                 <ul class="social">
                     <li class="src">SocialMedia</li>
                     <li class="src">WebSite</li>
-                    <li class="src">IFOOD Parceiros</li>
+                    <li class="src"><strong>IFOOD</strong> Parceiros</li>
                 </ul>
             </div>
         </section>
@@ -71,7 +66,7 @@
         <section class="Jobs">
             <div>
                 <a title="Click para ser levado a pagina" href="https://hamburgueria-eta-five.vercel.app" target="_blank">
-                    <img src="img/Captura de tela 2025-03-21 162049.png" class="proj" alt="">
+                    <img src="img/Captura de tela 2025-04-19 122653.png" class="proj" alt="">
                 </a>
             </div>
             <div>
